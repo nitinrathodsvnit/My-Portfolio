@@ -1,0 +1,48 @@
+section.coding-profiles-page {
+
+    width: 100vw;
+    // min-height: 62.5rem;
+    margin-top: 5rem;
+
+    .container {
+        // height: 60rem;
+        margin-top: 2rem;
+        position: relative;
+
+        .coding-profiles-icon-container {
+            width: 60%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            // justify-content: space-around;
+            flex-wrap: wrap;
+            margin: auto;
+            // margin: 0 auto;
+            margin-top: 1.5rem;
+
+            div {
+                width: 7rem;
+                height: 7rem;
+                margin: 3rem 2rem;
+                color: white;
+                font-size: var(--skills-icon-size);
+
+                &#scss svg path {
+                    fill: white;
+                }
+            }
+        }
+
+    }
+}
+
+.linked {
+    color: white;
+}
+
+@media only screen and (min-width: 669px) and (max-width: 800px) {
+    .skillsets-page .container {
+        height: 65rem;
+    }
+
+}
