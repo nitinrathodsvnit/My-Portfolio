@@ -10,6 +10,7 @@
   //*Firefox scrollbar styles
   scrollbar-color: var(--primary-color) var(--primary-background-color);
 }
+
 html {
   width: 100vw;
   //To set 1rem=10px
@@ -17,6 +18,7 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden !important;
 }
+
 body {
   width: 100vw;
   height: 100vh;
@@ -25,10 +27,12 @@ body {
   background-color: var(--primary-background-color);
   user-select: none;
 }
+
 // *Styling the scrollbar of body
 ::-webkit-scrollbar {
   width: 1rem;
 }
+
 ::-webkit-scrollbar-thumb {
   width: 1rem;
   background-color: var(--primary-color);
